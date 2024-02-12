@@ -101,3 +101,14 @@ table tbody tr:hover {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  table {
+    width: 100%; 
+  }
+
+}
