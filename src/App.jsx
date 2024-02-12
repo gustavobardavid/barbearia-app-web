@@ -35,7 +35,7 @@ function App() {
       <Logo />
       
       <div>
-        <h1>Agendamentos de Atendimentos</h1>
+        <h1>Agendamentos</h1>
         <table>
           <thead>
             <tr>
