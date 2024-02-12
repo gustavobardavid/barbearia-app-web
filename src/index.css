@@ -31,7 +31,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 1.2em;
   line-height: 1.1;
 }
 
@@ -103,11 +103,15 @@ table tbody tr:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   body {
     padding: 20px;
+    width: 100px;
   }
 
+  h1 {
+    width: 100%;
+  }
   table {
     width: 100%; 
   }
